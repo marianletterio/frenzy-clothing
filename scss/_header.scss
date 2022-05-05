@@ -1,0 +1,17 @@
+header{
+    nav{
+        font-family: $titulo;
+        font-weight:300px;
+        text-decoration: none;
+        background-color: $amarillo;
+            img{
+                width: 200px;
+            }
+            & li :not(.dropdown-item){
+                &:hover{
+                    transform: scale(1.05);
+                    transition: 100ms ease;
+                }
+            }
+    }
+}

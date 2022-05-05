@@ -1,0 +1,27 @@
+p{
+    font-family: $titulo;
+    font-weight:300;
+}
+
+.temporada{
+    background-color: $lila;
+        h1{
+            font-family: $titulo;
+            color: $verde;
+        }
+}
+
+.coleccion{
+    background-color: $rosa;
+        h2{
+            color: $amarillo;
+            font-family: $titulo;
+            font-weight:400;
+        }
+}
+
+.figure-caption{
+    color: $turquesa;
+    font-family: $titulo;
+    font-weight: bold;
+}
