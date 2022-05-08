@@ -85,4 +85,12 @@ main{
     .form-control{
         font-family: $texto;
     }
+
+    .error{
+        background-image: url("../media/error.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

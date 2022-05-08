@@ -3,6 +3,9 @@
     transform: scale(0.9);
     transition: 100ms ease; } }
 
+body, html {
+  height: 100%; }
+
 header nav {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 300px;
@@ -89,6 +92,13 @@ main input {
 
 main .form-control {
   font-family: "Montserrat", sans-serif; }
+
+main .error {
+  background-image: url("../media/error.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 footer {
   background-color: #ffcc00; }
