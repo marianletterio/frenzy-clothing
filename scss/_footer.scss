@@ -1,20 +1,27 @@
-.footer{
+footer{
     background-color: $amarillo;
-    button{
+    
+    ul li a{
+        font-family: $texto;
+    }
+    ul li a:hover {
+        font-weight: bold !important; 
+    }
+    h5{
+    font-family: $titulo;
+    }
+    p{
+        font-family: $texto;
+    }
+    input{
+        font-family: $texto;
+    }
+    .btn{
         background-color: $lila;
         color: $amarillo;
         font-weight: bold;
         font-family: $texto;
     }
-}
-
-footer{
-    h5{
-        font-family: $titulo;
-    }
-    ul li{
-        font-family:$texto;
-        }
     img{
         width:100px;
     }
@@ -35,5 +42,5 @@ footer{
     }
     .bi-pinterest{
         @include iconosRedes($rosa);
-        }   
+        }
 }

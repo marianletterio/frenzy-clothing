@@ -1,27 +1,88 @@
-p{
-    font-family: $titulo;
-    font-weight:300;
-}
+main{
 
-.temporada{
-    background-color: $lila;
-        h1{
+    p{
+        font-family: $titulo;
+        font-weight:300;
+    }
+    
+    .nosotrxs{
+        font-family: $texto;
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    h1, h2, h3, h5, h6{
+        font-family: $titulo;
+    }
+
+    h4{
+        color: $lila;
+        font-family: $titulo;
+        font-weight: bold;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    h4 span { 
+        background-color: white; 
+    }
+    .figure-caption{
+        color: $lila;
+        font-size: large;
+
+    }
+
+    .barra{
+        background-color: $lila;
+            h1{
             font-family: $titulo;
             color: $verde;
         }
-}
+    }
 
-.coleccion{
-    background-color: $rosa;
+    .coleccion{
+        background-color: $rosa;
         h2{
             color: $amarillo;
             font-family: $titulo;
             font-weight:400;
         }
-}
+    }
 
-.figure-caption{
-    color: $turquesa;
-    font-family: $titulo;
-    font-weight: bold;
+    figcaption{
+        color: $lila;
+        background-color: white;
+        font-family: $titulo;
+        font-weight: bold;
+        h6{
+            color: $lila;
+        }
+    }
+    
+    .btn{
+        background-color: $lila;
+        color: $amarillo;
+        font-weight: bold;
+        font-family: $texto;
+    }
+
+    .fondo{
+        background-image: url("../media/seamless-happy-emoji-pattern.png");
+    }
+
+    svg{
+        color: #212529;
+    }
+    .banner{
+        background-color: $turquesa;
+        color: $amarillo;
+        margin-bottom: 10px;
+    }
+    input{
+        font-family: $texto;
+    }
+    .form-control{
+        font-family: $texto;
+    }
 }
