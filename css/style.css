@@ -94,11 +94,7 @@ main .form-control {
   font-family: "Montserrat", sans-serif; }
 
 main .error {
-  background-image: url("../media/error.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-color: #fefefe; }
 
 main .acordeon button h2 {
   text-decoration: none;
