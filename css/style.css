@@ -100,6 +100,16 @@ main .error {
   background-repeat: no-repeat;
   background-size: cover; }
 
+main .acordeon button h2 {
+  text-decoration: none;
+  color: black; }
+  main .acordeon button h2 collapsed {
+    color: black; }
+
+main .acordeon p {
+  text-align: justify;
+  padding: 5px; }
+
 footer {
   background-color: #ffcc00; }
   footer ul li a {

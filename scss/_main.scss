@@ -93,4 +93,20 @@ main{
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .acordeon{
+        button{
+            h2{
+                text-decoration: none;
+                color: black;
+                & collapsed{
+                    color: black;
+                }
+            }
+        }
+        p{
+            text-align: justify;
+            padding: 5px
+        };
+    }
 }
