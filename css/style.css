@@ -96,6 +96,9 @@ main .form-control {
 main .error {
   background-color: #fefefe; }
 
+main .mapa {
+  width: auto; }
+
 main .acordeon button h2 {
   text-decoration: none;
   color: black; }
