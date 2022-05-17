@@ -20,13 +20,13 @@ header nav {
 header .navbar-nav li .dropdown-menu {
   background-color: #ffcc00; }
 
-main p {
+main p, main footer ul li a, footer ul li main a, main footer input, footer main input, footer main .form-control, main footer .form-control {
   font-family: "Lexend Deca", sans-serif;
-  font-weight: 300; }
+  font-weight: 300px; }
 
 main .nosotrxs {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 1rem;
   text-align: justify; }
 
@@ -87,10 +87,7 @@ main .banner {
   color: #9c85d9;
   margin-bottom: 10px; }
 
-main input {
-  font-family: "Montserrat", sans-serif; }
-
-main .form-control {
+main input, main .form-control {
   font-family: "Montserrat", sans-serif; }
 
 main .error {
@@ -105,22 +102,18 @@ main .acordeon button h2 {
   main .acordeon button h2 collapsed {
     color: black; }
 
-main .acordeon p {
+main .acordeon p, main .acordeon footer ul li a, footer ul li main .acordeon a, main .acordeon footer input, footer main .acordeon input, footer main .acordeon .form-control, main .acordeon footer .form-control, main footer .acordeon .form-control {
   text-align: justify;
   padding: 5px; }
 
 footer {
   background-color: #ffcc00; }
-  footer ul li a {
+  footer p, footer ul li a, footer input, footer main .form-control, main footer .form-control {
     font-family: "Montserrat", sans-serif; }
-  footer ul li a:hover {
-    font-weight: bold !important; }
   footer h5 {
     font-family: "Lexend Deca", sans-serif; }
-  footer p {
-    font-family: "Montserrat", sans-serif; }
-  footer input {
-    font-family: "Montserrat", sans-serif; }
+  footer ul li a:hover {
+    font-weight: bold !important; }
   footer .btn {
     background-color: #9c85d9;
     color: #ffcc00;

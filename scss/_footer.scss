@@ -1,20 +1,21 @@
 footer{
     background-color: $amarillo;
-    
-    ul li a{
+
+    p{
         font-family: $texto;
-    }
-    ul li a:hover {
-        font-weight: bold !important; 
     }
     h5{
     font-family: $titulo;
     }
-    p{
-        font-family: $texto;
+    ul li a{
+        @extend p;
     }
+    ul li a:hover {
+        font-weight: bold !important; 
+    }
+    
     input{
-        font-family: $texto;
+        @extend p;
     }
     .btn{
         background-color: $lila;
